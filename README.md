@@ -1,4 +1,6 @@
-# Reading files
+# Content
+
+## Reading files
 
 Functions to read .dat files from Nanonis and doing basic analysis
 
