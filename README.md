@@ -17,6 +17,6 @@ Functions:
 
 ## Examples in the folders
 
-1. bias-distance
-2. freq-sweep
-3. force-distance
+- bias-distance
+- freq-sweep
+- force-distance
