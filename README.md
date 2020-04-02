@@ -1,9 +1,16 @@
 # Content
 
-## Reading files
+## standalone-reading-afm-functions
 
-Functions to read .dat files from Nanonis and doing basic analysis
+Functions: 
 
-List of functions:
-- which_experiment() returns the type of experiment
-- read_file() returns data in a pandas database
+``read_nanonis_experiment``: reads the type of experiment from the header of any nanonis file. Examples:
+- 'Experiment' for freq. sweep files
+- 'bias spectroscopy'
+- 'Z spectroscopy'
+    
+
+``read_nanonis_fsweep_header``: read the header of a fsweep file into a python dictionary (f_res (Hz), Phase (deg), Amp/Exc (nm/mV))
+    
+
+``read_nanonis_curve``: read the numeric data from ASCII nanonis file
