@@ -15,7 +15,7 @@ Functions:
 
 ``read_nanonis_curve``: read the numeric data from ASCII nanonis file
 
-## Examples
+## Examples in the folders
 
 1. bias-distance
 2. freq-sweep
